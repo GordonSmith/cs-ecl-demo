@@ -16,8 +16,8 @@ sudo mkdir ${WD}
 sudo mv .vscode/launch.json ${WD}/
 
 # Make launch.json uneditable
-sudo chmod 444 ${WD}/launch.json
-sudo chown root ${WD}/launch.json
+# sudo chmod 444 ${WD}/launch.json
+# sudo chown root ${WD}/launch.json
 
 # Create softlink
 sudo ln -s ${WD}/launch.json .vscode/launch.json
